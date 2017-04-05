@@ -1,0 +1,20 @@
+base:
+  '*': 
+    - fail2ban
+    - ssh.enabled
+  'vps119294.vps.ovh.ca':
+    - java
+    - cobaltstrike
+  '255.ip-144-217-162.net':
+    - socat
+    - redirector
+  'rebates-target.com':
+    - java
+    - cobaltstrike
+  'cs2':
+    - socat
+    - redirector
+  'exfil-ftp-*':
+    - ftp-server
+  'exfil-ftps-*':
+    - ftps-server

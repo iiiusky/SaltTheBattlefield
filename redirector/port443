@@ -1,0 +1,3 @@
+Redirect 443:
+  cmd.run:
+    - name: screen -m -d -S "socat443" bash -c "socat TCP4-LISTEN:443,fork TCP4:cs4.ravenbin.com:443"

@@ -1,0 +1,1 @@
+java -XX:+AggressiveHeap -XX:+UseParallelGC -jar cobaltstrike.jar $*
